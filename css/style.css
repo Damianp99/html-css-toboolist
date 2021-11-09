@@ -63,5 +63,48 @@ ul{
     list-style-type: none;   
 }
 
+li{
+    padding:5px ;
+}
+span{
+    font-size: 12px;
+    color: white;
+    padding:3px;
+}
 
+.editorial{
+    background-color: rgb(69,171,234);
+    border-radius: 7px;
 
+}
+
+.recruiting{
+    background-color: rgb(100,192,169);
+    border-radius: 7px;
+}
+
+.goals{
+    background-color: rgb(177,144,234);
+    border-radius: 7px;
+
+}
+
+.sales{
+    background-color: rgb(176,201,38);
+    border-radius: 7px;
+}
+
+.website{
+    background-color: rgb(216,99,161);
+    border-radius: 7px;
+}
+
+.mobile{
+    background-color: rgb(242,158,51);
+    border-radius: 7px;
+}
+
+.editorial-different{
+    background-color: rgb(242,158,51);
+    border-radius: 7px;
+}
