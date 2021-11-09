@@ -1,7 +1,10 @@
+*{
+    font-family: "Gill Sans", sans-serif;
+}
 /* logo e titolo */
 
-header{
-    height: 40px;
+#logo-title{
+    height: 80px;
     background-color: white;
 }
 h1{
@@ -14,11 +17,51 @@ h1{
 #logo{
     vertical-align: middle;
     padding: 10px 0;
+    margin-left: 10px;
 }
 
 /* body / contenuto principale */
 
 body{
-    background-color:hsl(0, 0%, 90%);;
-    margin: 0%;
+    background-color:hsl(0, 0%, 90%);
+    margin: 0 auto ;
 }
+
+.container{
+    padding-bottom: 5px ;
+    padding-left: 10px;
+    margin: 5% 30%;
+    background-color: white; 
+    border-radius: 5px;
+}
+
+#task{
+    margin: 10px;
+    display: inline-block;
+    text-align: left;
+    padding:5px;
+    background-color:rgb(69,171,234);
+    color: white;
+    border-radius: 5px;
+
+}
+
+#add-section{
+    margin: 10px;
+    display: inline-block;
+    text-align: left;
+    padding:5px;
+    background-color:white;
+    color:grey;
+    border:solid grey 1px;
+    border-radius: 5px;
+}
+
+ul{
+    padding-inline-start: 0;
+    list-style-position:inline;
+    list-style-type: none;   
+}
+
+
+
