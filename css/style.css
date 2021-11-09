@@ -1,0 +1,24 @@
+/* logo e titolo */
+
+header{
+    height: 40px;
+    background-color: white;
+}
+h1{
+    display: inline;
+    vertical-align: middle;
+    padding: 10px 0;
+    font-size: 50px;
+}
+
+#logo{
+    vertical-align: middle;
+    padding: 10px 0;
+}
+
+/* body / contenuto principale */
+
+body{
+    background-color:hsl(0, 0%, 90%);;
+    margin: 0%;
+}
